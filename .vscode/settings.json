@@ -1,4 +1,12 @@
 {
   "python.analysis.extraPaths": ["./app"],
-  "python.venvPath": "~/.cache/pypoetry/virtualenvs/"
+  "python.venvPath": "~/.cache/pypoetry/virtualenvs/",
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "database": "app/app.db",
+      "name": "app"
+    }
+  ]
 }
